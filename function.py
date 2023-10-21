@@ -1,11 +1,9 @@
-def function_name(parameters):
-    # Function code
-    # ...
-    return result  # Optional
-def greet(name):
-    message = f"Hello, {name}!"
+
+def greet(name,age):
+    message = f"Hello, {name,age}!"
+    print("welcome to my web site",name,age)
     return message
 
 # Calling the function
-result = greet("nikhilesh")
+result = greet("nikhilesh",20)
 print(result)  # Output: Hello, Alice!
