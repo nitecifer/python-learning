@@ -7,3 +7,11 @@ def greet(name,age):
 # Calling the function
 result = greet("nikhilesh",20)
 print(result)  # Output: Hello, Alice!
+
+
+def add_numbers(x,y):
+   print(x+y)
+
+
+
+   
